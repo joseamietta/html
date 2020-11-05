@@ -17,7 +17,7 @@ Sirve para crear secciones o agrupar contenidos.
 ```
 
 ### DL
-Representa una lista descriptiva. El elemento encierra una lista de grupos de términos (especificados con el uso del elemento <dt>) y de descripciones (proveídas con elementos <dd>). Algunos usos comunes para este elemento son implementar un glosario o para desplegar metadatos (lista de pares llave-valor).
+Representa una lista descriptiva. El elemento encierra una lista de grupos de términos (especificados con el uso del elemento ```<dt>```) y de descripciones (proveídas con elementos ```<dd>```). Algunos usos comunes para este elemento son implementar un glosario o para desplegar metadatos (lista de pares llave-valor).
 
 ```html
 <dl>
