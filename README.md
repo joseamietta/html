@@ -1,21 +1,7 @@
 # HTML
 
 ## Contenido
-Organiza en bloques o secciones de contenido dentro del <body>. Es importante para la accesibilidad y el SEO que estos elementos se identifiquen con el objetivo o la estructura de ese contenido.
-
-### BLOCKQUOTE
-Cita en bloque . Crea citas en bloque, marca las citas a otros autores o documentos.
-
-```html
-<blockquote cite="http://html.conclase.net/w3c/html401...def-BLOCKQUOTE">
-  <p> 
-    <strong>Nota.</strong> Recomendamos que las implementaciones de hojas
-    de estilo porporcionen un mecanismo para insertar signos de puntuación de citas
-    antes y después de una cita delimitada por un BLOCKQUOTE de un modo apropiado según 
-    el contexto del idioma actual y el grado de anidamiento de las citas. 
-  </p>
-</blockquote>
-```
+Organiza en bloques o secciones de contenido dentro del ```<body>```. Es importante para la accesibilidad y el SEO que estos elementos se identifiquen con el objetivo o la estructura de ese contenido.
 
 ### DIV
 Sirve para crear secciones o agrupar contenidos.
@@ -95,11 +81,25 @@ a   {
 </pre>
 ```
 
+### BLOCKQUOTE
+Cita en bloque . Crea citas en bloque, marca las citas a otros autores o documentos.
+
+```html
+<blockquote cite="http://html.conclase.net/w3c/html401...def-BLOCKQUOTE">
+  <p> 
+    <strong>Nota.</strong> Recomendamos que las implementaciones de hojas
+    de estilo porporcionen un mecanismo para insertar signos de puntuación de citas
+    antes y después de una cita delimitada por un BLOCKQUOTE de un modo apropiado según 
+    el contexto del idioma actual y el grado de anidamiento de las citas. 
+  </p>
+</blockquote>
+```
+
 ## Semántica del texto en línea
 Utilice la semántica del texto en línea HTML para definir el significado, estructura, o el estilo de una palabra, una línea o cualquier pieza arbitraria de texto.
 
 ### A
-El Elemento HTML Anchor <a> crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL.
+El Elemento HTML Anchor ```<a>``` crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL.
 
 ```html
 <a href="https://developer.mozilla.org">MDN</a>
@@ -124,7 +124,7 @@ El elemento strong es el apropiado para marcar con especial énfasis las partes 
 ```
 
 ### BR
-El elemento HTML line break <br> produce un salto de línea en el texto (retorno de carro). Es útil para escribir un poema o una dirección, donde la división de las líneas es significante.
+El elemento HTML line break ```<br>``` produce un salto de línea en el texto (retorno de carro). Es útil para escribir un poema o una dirección, donde la división de las líneas es significante.
 
 ```html
 Mozilla Foundation<br>
@@ -135,7 +135,7 @@ USA
 ```
 
 ### EM
-El elemento HTML <em> es el apropiado para marcar con énfasis las partes importantes de un texto.
+El elemento HTML ```<em> es el apropiado para marcar con énfasis las partes importantes de un texto.
 
 ```html
 <p>
@@ -180,7 +180,7 @@ El elemento audio se usa para insertar contenido de audio en un documento HTML o
 ```
 
 ### IMG
-El elemento de imagen HTML <img> representa una imagen en el documento.
+El elemento de imagen HTML ```<img>``` representa una imagen en el documento.
 
 ```html
 <!-- img element -->
