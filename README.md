@@ -1,7 +1,7 @@
 ## Contenido
 Organiza en bloques o secciones de contenido dentro del ```<body>```. Es importante para la accesibilidad y el SEO que estos elementos se identifiquen con el objetivo o la estructura de ese contenido.
 
-### DIV
+### ```<div>```
 Sirve para crear secciones o agrupar contenidos.
 
 ```html
@@ -14,7 +14,7 @@ Sirve para crear secciones o agrupar contenidos.
 </div>
 ```
 
-### H
+### ```<h>```
 Los elementos de encabezado implementan seis niveles de encabezado del documento, ```<h1>``` es el más importante, y ```<h6>```, el menos importante.
 
 ```html
@@ -26,7 +26,7 @@ Los elementos de encabezado implementan seis niveles de encabezado del documento
 <h6>Heading level 6</h6>
 ```
 
-### DL
+### ```<dl>```
 Representa una lista descriptiva. El elemento encierra una lista de grupos de términos (especificados con el uso del elemento ```<dt>```) y de descripciones (proveídas con elementos ```<dd>```). Algunos usos comunes para este elemento son implementar un glosario o para desplegar metadatos (lista de pares llave-valor).
 
 ```html
@@ -43,7 +43,7 @@ Representa una lista descriptiva. El elemento encierra una lista de grupos de t�
 </dl>
 ```
 
-### OL
+### ```<ol>```
 Permite definir listas o viñetas ordenadas (“Ordered List”), bien con numeración o alfabéticamente.
 
 ```html
@@ -54,7 +54,7 @@ Permite definir listas o viñetas ordenadas (“Ordered List”), bien con numer
 </ol>
 ```
 
-### UL
+### ```<ul>```
 Crea una lista no ordenada.
 
 ```html
@@ -65,7 +65,7 @@ Crea una lista no ordenada.
 </ul>
 ```
 
-### P
+### ```<p>```
 Es el apropiado para distribuir el texto en párrafos.
 
 ```html
@@ -76,7 +76,7 @@ párrafo
 </p>
 ```
 
-### PRE
+### ```<pre>```
 Representa texto preformateado.
 
 ```html
@@ -91,7 +91,7 @@ a   {
 </pre>
 ```
 
-### BLOCKQUOTE
+### ```<blockquote>```
 Cita en bloque . Crea citas en bloque, marca las citas a otros autores o documentos.
 
 ```html
@@ -108,14 +108,14 @@ Cita en bloque . Crea citas en bloque, marca las citas a otros autores o documen
 ## Semántica del texto en línea
 Utilice la semántica del texto en línea HTML para definir el significado, estructura, o el estilo de una palabra, una línea o cualquier pieza arbitraria de texto.
 
-### A
+### ```<a>```
 El Elemento HTML Anchor ```<a>``` crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL.
 
 ```html
 <a href="https://developer.mozilla.org">MDN</a>
 ```
 
-### B
+### ```<b>```
 Indica que el texto debe ser representado con una variable bold, o negrita, de la tipografía que se esté usando.
 
 ```html
@@ -124,7 +124,7 @@ Indica que el texto debe ser representado con una variable bold, o negrita, de l
 <p>
 ```
 
-### STRONG
+### ```<strong>```
 El elemento strong es el apropiado para marcar con especial énfasis las partes más importantes de un texto.
 
 ```html
@@ -133,7 +133,7 @@ El elemento strong es el apropiado para marcar con especial énfasis las partes 
 </p>
 ```
 
-### BR
+### ```<br>```
 El elemento HTML line break ```<br>``` produce un salto de línea en el texto (retorno de carro). Es útil para escribir un poema o una dirección, donde la división de las líneas es significante.
 
 ```html
@@ -144,7 +144,7 @@ Mountain View, CA 94043-0801<br>
 USA
 ```
 
-### EM
+### ```<em>```
 El elemento HTML ```<em>``` es el apropiado para marcar con énfasis las partes importantes de un texto.
 
 ```html
@@ -153,7 +153,7 @@ El elemento HTML ```<em>``` es el apropiado para marcar con énfasis las partes 
 </p>
 ```
 
-### I
+### ```<i>```
 Muestra el texto marcado con un estilo en cursiva o italica.
 
 ```html
@@ -162,7 +162,7 @@ Muestra el texto marcado con un estilo en cursiva o italica.
 </p>
 ```
 
-### SPAN
+### ```<span>```
 span - abarcar. Sirve para aplicar estilo al texto o agrupar elementos en línea.
 
 ```html
@@ -178,7 +178,7 @@ span - abarcar. Sirve para aplicar estilo al texto o agrupar elementos en línea
 ## Imagen y multimedia
 HTML soporta varios recursos multimedia como imágenes, audio, y video.
 
-### AUDIO
+### ```<audio>```
 El elemento audio se usa para insertar contenido de audio en un documento HTML o XHTML. El elemento audio se agregó como parte de HTML 5.
 
 ```html
@@ -188,7 +188,7 @@ El elemento audio se usa para insertar contenido de audio en un documento HTML o
 </audio>
 ```
 
-### IMG
+### ```<img>```
 El elemento de imagen HTML ```<img>``` representa una imagen en el documento.
 
 ```html
@@ -206,7 +206,7 @@ El elemento de imagen HTML ```<img>``` representa una imagen en el documento.
 </picture>
 ```
 
-### VIDEO
+### ```<video>```
 El elemento video se utiliza para incrustar vídeos en un documento HTML o XHTML.
 
 ```html
@@ -218,7 +218,7 @@ El elemento video se utiliza para incrustar vídeos en un documento HTML o XHTML
 ## Contenido incrustado
 Además de los contenidos multimedia habituales, HTML puede incluir otra variedad de contenidos, aunque no siempre es fácil interactuar con ellos.
 
-### IFRAME
+### ```<iframe>```
 Permite incrustar otra página HTML en la página actual.
 
 ```html
@@ -229,7 +229,7 @@ Permite incrustar otra página HTML en la página actual.
 
 ## Formularios
 
-### FROM
+### ```<from>```
 Representa una sección de un documento que contiene controles interactivos que permiten a un usuario enviar información a un servidor web.
 
 ```html
@@ -242,7 +242,7 @@ Representa una sección de un documento que contiene controles interactivos que 
 </form>
 ```
 
-### FIELDSET
+### ```<fieldset>```
 El elemento fieldset permite organizar en grupos los campos de un formulario.
 
 ```html
@@ -262,7 +262,7 @@ El elemento fieldset permite organizar en grupos los campos de un formulario.
 </form>
 ```
 
-### INPUT
+### ```<input>```
 Se usa para crear controles interactivos para formularios basados en la web con el fin de recibir datos del usuario.
 Hay distintos tipos de input y se definen con el atributo type.
 
@@ -276,14 +276,14 @@ Hay distintos tipos de input y se definen con el atributo type.
 </form>
 ```
 
-### TEXTAREA
+### ```<textarea>```
 Representa un control para la edición mutilínea de texto sin formato.
 
 ```html
 <textarea name="textarea" rows="10" cols="50">Write something here</textarea>
 ```
 
-### SELECT
+### ```<select>```
 Representa un control que muestra un menú de opciones. Las opciones contenidas en el menú son representadas por elementos ```<option>```
 
 ```html
