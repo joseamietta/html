@@ -145,14 +145,13 @@ USA
 ```
 
 ### EM
-El elemento HTML ```<em> es el apropiado para marcar con énfasis las partes importantes de un texto.
+El elemento HTML ```<em>``` es el apropiado para marcar con énfasis las partes importantes de un texto.
 
 ```html
 <p>
    <em>El dinero</em> es importante pero <strong>la salud</strong> lo es más.
 </p>
 ```
-
 
 ### I
 Muestra el texto marcado con un estilo en cursiva o italica.
@@ -227,3 +226,71 @@ Permite incrustar otra página HTML en la página actual.
   <p>Your browser does not support iframes.</p>
 </iframe>
 ````
+
+## Formularios
+
+### FROM
+Representa una sección de un documento que contiene controles interactivos que permiten a un usuario enviar información a un servidor web.
+
+```html
+<!-- Formulario con conjunto de campos, leyenda y etiqueta -->
+<form action="" method="post">
+  <fieldset>
+    <legend>Título</legend>
+    <input type="radio" name="radio" id="radio"> <label for="radio">Clic aquí</label>
+  </fieldset>
+</form>
+```
+
+### FIELDSET
+El elemento fieldset permite organizar en grupos los campos de un formulario.
+
+```html
+<form>
+    <fieldset>
+        <legend>Información Personal</legend>
+        Nombre: <input name='nombre' type='text' tabindex='1'>
+        Apellidos: <input name='apellidos' type='text' tabindex='2'>
+    </fieldset>
+
+    <fieldset>
+        <legend>edad</legend>
+        <input type='checkbox' tabindex='20' name='edad' value='20-39'> 20-39
+        <input type='checkbox' tabindex='21' name='edad' value='40-59'> 40-59
+        <input type='checkbox' tabindex='22' name='edad' value='60-79'> 60-79
+    </fieldset>
+</form>
+```
+
+### INPUT
+Se usa para crear controles interactivos para formularios basados en la web con el fin de recibir datos del usuario.
+Hay distintos tipos de input y se definen con el atributo type.
+
+```html
+<p>A common form that includes input tags</p>
+<form action="getform.php" method="get">
+    <label>First name: <input type="text"></label><br>
+    <label>Last name: <input type="text"></label><br>
+    <label>E-mail: <input type="email"></label><br>
+    <input type="submit" value="Submit">
+</form>
+```
+
+### TEXTAREA
+Representa un control para la edición mutilínea de texto sin formato.
+
+```html
+<textarea name="textarea" rows="10" cols="50">Write something here</textarea>
+```
+
+### SELECT
+Representa un control que muestra un menú de opciones. Las opciones contenidas en el menú son representadas por elementos ```<option>```
+
+```html
+<!-- The second value will be selected initially -->
+<select name="select">
+  <option value="value1">Value 1</option> 
+  <option value="value2" selected>Value 2</option>
+  <option value="value3">Value 3</option>
+</select>
+```
