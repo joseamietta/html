@@ -1,5 +1,3 @@
-# HTML
-
 ## Contenido
 Organiza en bloques o secciones de contenido dentro del ```<body>```. Es importante para la accesibilidad y el SEO que estos elementos se identifiquen con el objetivo o la estructura de ese contenido.
 
@@ -14,6 +12,18 @@ Sirve para crear secciones o agrupar contenidos.
     <span style="color: red;"> y esto un span dentro de un párrafo.</span> 
   </p>
 </div>
+```
+
+### H
+Los elementos de encabezado implementan seis niveles de encabezado del documento, ```<h1>``` es el más importante, y ```<h6>```, el menos importante.
+
+```html
+<h1>Heading level 1</h1>
+<h2>Heading level 2</h2>
+<h3>Heading level 3</h3>
+<h4>Heading level 4</h4>
+<h5>Heading level 5</h5>
+<h6>Heading level 6</h6>
 ```
 
 ### DL
@@ -66,7 +76,7 @@ párrafo
 </p>
 ```
 
-# PRE
+### PRE
 Representa texto preformateado.
 
 ```html
