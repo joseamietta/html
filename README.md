@@ -229,7 +229,7 @@ Permite incrustar otra página HTML en la página actual.
 
 ## Formularios
 
-### ```<from>```
+### ```<form>```
 Representa una sección de un documento que contiene controles interactivos que permiten a un usuario enviar información a un servidor web.
 
 ```html
